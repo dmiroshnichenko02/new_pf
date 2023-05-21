@@ -5,54 +5,64 @@ const CircleGroup = () => {
         <>
             <Circle
                 filter="blur(4px) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))"
-                left="360.64px"
-                top="30px"
+                left="20%"
+                top="3%"
+                animationDuration="3.7s"
             />
             <Circle
                 filter="blur(4px) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))"
-                left="823.27px"
-                top="102.22px"
+                left="52%"
+                top="17%"
+                animationDuration="3.2s"
             />
             <Circle
                 filter="blur(4px) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))"
-                left="888.31px"
-                top="272.55px"
+                left="56%"
+                top="35%"
+                animationDuration="2.1s"
             />
             <Circle
                 filter="blur(4px) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))"
-                left="1135.89px"
-                top="324.29px"
+                left="67%"
+                top="37%"
+                animationDuration="4s"
             />
             <Circle
                 filter="blur(4px) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))"
-                left="1470.74px"
-                top="13.83px"
+                left="90%"
+                top="2%"
+                animationDuration="3.4s"
             />
             {/* Group 2 */}
             <Circle
                 filter="blur(3px) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))"
-                left="350.04px"
-                top="406.83px"
+                left="20%"
+                top="50%"
+                animationDuration="3.5s"
             />
             <Circle
                 filter="blur(3px) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))"
-                left="817.21px"
-                top="473.83px"
+                left="50%"
+                top="60%"
+                animationDuration="2.5s"
             />
             <Circle
                 filter="blur(3px) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))"
-                left="882.89px"
-                top="631.83px"
+                left="55%"
+                top="75%"
+                animationDuration="3.5s"
             />
             <Circle
                 filter="blur(3px) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))"
-                left="1132.9px"
-                top="679.83px"
+                left="72%"
+                top="90%"
+                animationDuration="3s"
             />
             <Circle
                 filter="blur(3px) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))"
-                left="1505.83px"
-                top="391.83px"
+                left="95%"
+                top="50%"
+                animationDuration="2s"
             />
         </>
     );
