@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import "./sidebar.sass";
 
 const Sidebar = () => {
@@ -33,13 +35,28 @@ const Sidebar = () => {
                     </ul>
                     <ul className="sidebar__social">
                         <li className="sidebar__social__telegram">
-                            <a href="#"></a>
+                            <a href="#">
+                                <FontAwesomeIcon
+                                    icon="fa-brands fa-telegram"
+                                    style={{ color: "white", zIndex: "25" }}
+                                />
+                            </a>
                         </li>
                         <li className="sidebar__social__gmail">
-                            <a href="#"></a>
+                            <a href="#">
+                                <FontAwesomeIcon
+                                    icon="fa-solid fa-inbox"
+                                    style={{ color: "#000000" }}
+                                />
+                            </a>
                         </li>
                         <li className="sidebar__social__git">
-                            <a href="#"></a>
+                            <a href="#">
+                                <FontAwesomeIcon
+                                    icon="fa-brands fa-github"
+                                    style={{ color: "#000000" }}
+                                />
+                            </a>
                         </li>
                     </ul>
                 </div>
