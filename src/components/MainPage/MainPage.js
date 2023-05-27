@@ -1,7 +1,6 @@
 import SquareGroup from "../Figures/Square/SquareGroup";
 import CircleGroup from "../Figures/Circle/CircleGroup";
 import TriangleGroup from "../Figures/Triangle/TrianlgeGroup";
-import Sidebar from "../Sidebar/Sidebad";
 
 import "./mainPage.sass";
 
@@ -9,8 +8,10 @@ const MainPage = () => {
     return (
         <div className="main">
             <div className="container">
-                <div className="main__sidebar">
-                    <Sidebar />
+                <div className="main__figures">
+                    <SquareGroup />
+                    <CircleGroup />
+                    <TriangleGroup />
                 </div>
                 <div className="code">
                     <pre>
@@ -21,11 +22,19 @@ const MainPage = () => {
                             &lt;div class=”welcome__header”&gt;
                             <br />
                             <span className="space-2" />
-                            &lt;h1&gt; Hello, my name is Danilo Miroshnichenko
+                            &lt;h1&gt;{" "}
+                            <h1 className="title">
+                                Hello, my name is Danilo Miroshnichenko
+                            </h1>
+                            <span className="space-2" />
                             &lt;/h1&gt;
                             <br />
                             <span className="space-2" />
-                            &lt;h2&gt; I'm Frontend Developer&lt;/h2&gt;
+                            &lt;h2&gt;{" "}
+                            <span className="subtitle">
+                                I'm Frontend Developer
+                            </span>
+                            &lt;/h2&gt;
                             <br />
                             <span className="space-1" />
                             &lt;/div&gt;
@@ -80,11 +89,6 @@ const MainPage = () => {
                             &lt;/nav&gt;
                         </code>
                     </pre>
-                </div>
-                <div className="main__figures">
-                    <SquareGroup />
-                    <CircleGroup />
-                    <TriangleGroup />
                 </div>
             </div>
         </div>

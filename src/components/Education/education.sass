@@ -1,0 +1,44 @@
+.education
+    background-color: #f15b76b5
+    height: 100vh
+    h2
+        text-align: center
+        font-size: 46px
+        padding-top: 20px
+        margin-bottom: 20px
+    h3
+        font-size: 26px
+    &__wrapper
+        display: flex
+    &__study__university
+        &_name
+            font-size: 15px
+            padding-left: 20px
+        &_descr
+            width: 450px
+            margin-top: 10px
+            padding-left: 20px
+            font-size: 17px
+            line-height: 130%
+    &__study__udemy
+        width: 600px
+        margin-left: 100px
+        &_name
+            font-size: 26px
+            font-weight: bold
+        &_list
+            list-style-type: none
+            display: grid
+            grid-template-columns: repeat(2, 1fr)
+            grid-auto-rows: minmax(100px, auto)
+        &_item
+            width: 300px
+            margin-top: 20px
+            padding-left: 20px
+            font-size: 18px
+            &_descr
+                font-size: 17px
+                padding-left: 10px
+        &__certificate
+            &__list
+                display: flex
