@@ -66,6 +66,9 @@ const Education = () => {
                             </ul>
                         </div>
                     </div>
+                    <h2 className="education__certificate__title">
+                        Certificates
+                    </h2>
                     <EducationSlider />
                 </div>
             </div>

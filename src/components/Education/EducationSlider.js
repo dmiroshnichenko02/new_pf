@@ -1,33 +1,38 @@
 import Slider from "react-slick";
 
+import "./education.sass";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 import cerf1 from "../../assets/img/education/certification/wp_certificat.jpg";
 
 const EducationSlider = () => {
     const settings = {
-        dots: true, // Показывать точки для навигации по слайдам
-        infinite: true, // Бесконечное прокручивание слайдов
-        speed: 500, // Скорость прокрутки слайдов (в миллисекундах)
-        slidesToShow: 1, // Количество слайдов для показа одновременно
-        slidesToScroll: 1, // Количество слайдов, прокручиваемых за один раз
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        className: "education__certificate__item",
     };
 
     return (
-        <div className="education__certificate">
-            <Slider {...settings}>
-                <div>
-                    <img src={cerf1} alt="certificate" />
-                </div>
-                <div>
-                    <img src={cerf1} alt="certificate" />
-                </div>
-                <div>
-                    <img src={cerf1} alt="certificate" />
-                </div>
-                <div>
-                    <img src={cerf1} alt="certificate" />
-                </div>
-            </Slider>
-        </div>
+        <Slider {...settings}>
+            <div>
+                <img src={cerf1} alt="certificate" />
+            </div>
+            <div>
+                <img src={cerf1} alt="certificate" />
+            </div>
+            <div>
+                <img src={cerf1} alt="certificate" />
+            </div>
+            <div>
+                <img src={cerf1} alt="certificate" />
+            </div>
+        </Slider>
     );
 };
 
