@@ -1,5 +1,5 @@
 .education
-    background-color: #f15b76b5
+    background-color: #d5b2b8b5
     min-height: 1200px
     h2
         text-align: center
@@ -14,6 +14,14 @@
         &_name
             font-size: 15px
             padding-left: 20px
+            position: relative
+            &::before
+                position: absolute
+                content: url('../../assets/icons/university.svg')
+                width: 20px
+                height: 20px
+                top: -2px
+                left: -2px
         &_descr
             width: 450px
             margin-top: 10px
@@ -32,10 +40,41 @@
             grid-template-columns: repeat(2, 1fr)
             grid-auto-rows: minmax(100px, auto)
         &_item
+            display: flex
+            flex-direction: column
             width: 300px
             margin-top: 20px
-            padding-left: 20px
+            padding-left: 25px
             font-size: 18px
+            position: relative
+            &:nth-child(1)
+                &::before
+                    position: absolute
+                    content: url('../../assets/icons/wp.svg')
+                    width: 20px
+                    height: 20px
+                    left: 0px
+            &:nth-child(2)
+                &::before
+                    position: absolute
+                    content: url('../../assets/icons/ts.svg')
+                    width: 20px
+                    height: 20px
+                    left: 0px
+            &:nth-child(3)
+                &::before
+                    position: absolute
+                    content: url('../../assets/icons/web.svg')
+                    width: 20px
+                    height: 20px
+                    left: 0px
+            &:nth-child(4)
+                &::before
+                    position: absolute
+                    content: url('../../assets/icons/js.svg')
+                    width: 20px
+                    height: 20px
+                    left: 0px
             &_descr
                 font-size: 17px
                 padding-left: 10px
@@ -46,3 +85,5 @@
             img
                 width: 600px
                 height: 700px
+
+    // #f15b76b5
