@@ -5,7 +5,6 @@ import house from "../../assets/icons/house.svg";
 import edu from "../../assets/icons/edu.svg";
 import about from "../../assets/icons/about.svg";
 import skills from "../../assets/icons/skills.svg";
-import exp from "../../assets/icons/exp.svg";
 import portfolio from "../../assets/icons/portfolio.svg";
 import contact from "../../assets/icons/contact.svg";
 
@@ -35,11 +34,6 @@ const Sidebar = () => {
                         <li className="sidebar__links__item">
                             <a href="#" className="sidebar__links__link">
                                 <img src={skills} alt="skills" />
-                            </a>
-                        </li>
-                        <li className="sidebar__links__item">
-                            <a href="#" className="sidebar__links__link">
-                                <img src={exp} alt="exp" />
                             </a>
                         </li>
                         <li className="sidebar__links__item">

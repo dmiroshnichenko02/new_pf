@@ -66,12 +66,6 @@ const MainPage = () => {
                             <br />
                             <span className="space-3" />
                             &lt;li class=”nav__links__item”&gt;&lt;a
-                            href=”/experience”&gt;
-                            <a href="#">Experience</a>
-                            &lt;/a&gt;&lt;/li&gt;
-                            <br />
-                            <span className="space-3" />
-                            &lt;li class=”nav__links__item”&gt;&lt;a
                             href=”/portfolio”&gt;<a href="#">Portfolio</a>
                             &lt;/a&gt;&lt;/li&gt;
                             <br />
