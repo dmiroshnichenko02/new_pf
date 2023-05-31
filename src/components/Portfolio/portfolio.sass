@@ -32,6 +32,8 @@
                 background: url('../../assets/img/portfolio/thor.jpeg') center (center/cover) no-repeat
             &:nth-child(4)
                 background: url('../../assets/img/portfolio/coffee.png') center (center/cover) no-repeat
+            &:nth-child(5)
+                background: url('../../assets/img/portfolio/food.png') center (center/cover) no-repeat
 
             img
                 width: 100%
@@ -65,3 +67,48 @@
             display: flex
         &__git
             margin-right: 15px
+    &__test
+        margin-top: 50px
+        width: 100%
+        justify-content: center
+        display: grid
+        grid-template-columns: repeat(3, 250px)
+        grid-template-rows: 250px
+        grid-auto-rows: 250px
+        gap: 15px
+        &__wrapper
+            position: relative
+            overflow: hidden
+            &:hover
+                .portfolio__test__descr
+                    bottom: 0
+            &:nth-child(1)
+                background: url('../../assets/img/portfolio/food.png') center (center/cover) no-repeat
+            &:nth-child(2)
+                background: url('../../assets/img/portfolio/food.png') center (center/cover) no-repeat
+        &__section-title
+            margin-top: 60px
+            font-size: 26px
+            font-weight: bold
+            color: black
+            text-align: center
+        &__descr
+            transition: all 1s
+            opacity: .5
+            position: absolute
+            bottom: -100%
+            content: ''
+            background-color: #fff
+            width: 250px
+            height: 250px
+        &__text
+            text-align: center
+            font-size: 18px
+            margin-top: 10px
+        &__links
+            position: absolute
+            content: ''
+            bottom: 20px
+            left: 50%
+            transform: translateX(-50%)
+            display: flex

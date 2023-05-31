@@ -97,6 +97,77 @@ const Portfolio = () => {
                                 </div>
                             </div>
                         </div>
+                        <div className="portfolio__works__item">
+                            <div className="portfolio__works__descr">
+                                <div className="portfolio__works__title">
+                                    Food
+                                </div>
+                                <div className="portfolio__works__text">
+                                    Web page
+                                </div>
+                                <div className="portfolio__works__links">
+                                    <div className="portfolio__works__git">
+                                        <a href="#" target="_blank">
+                                            GitHub
+                                        </a>
+                                    </div>
+                                    <div className="portfolio__works__see">
+                                        <a href="#" target="_blank"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 className="portfolio__test__section-title">
+                        Виконані тестові завдання
+                    </h3>
+                    <div className="portfolio__test">
+                        <div className="portfolio__test__wrapper">
+                            <div className="portfolio__test__item">
+                                <div className="portfolio__test__descr">
+                                    <div className="portfolio__test__title">
+                                        Abz group
+                                    </div>
+                                    <div className="portfolio__test__text">
+                                        Test work
+                                    </div>
+                                    <div className="portfolio__test__links">
+                                        <div className="portfolio__test__git">
+                                            <a href="#" target="_blank">
+                                                GitHub
+                                            </a>
+                                        </div>
+                                        <div className="portfolio__test__see">
+                                            <a href="#" target="_blank">
+                                                Look now
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="portfolio__test__item">
+                                <div className="portfolio__test__descr">
+                                    <div className="portfolio__test__title">
+                                        Abz group
+                                    </div>
+                                    <div className="portfolio__test__text">
+                                        Test work
+                                    </div>
+                                    <div className="portfolio__test__links">
+                                        <div className="portfolio__test__git">
+                                            <a href="#" target="_blank">
+                                                GitHub
+                                            </a>
+                                        </div>
+                                        <div className="portfolio__test__see">
+                                            <a href="#" target="_blank">
+                                                Look now
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
