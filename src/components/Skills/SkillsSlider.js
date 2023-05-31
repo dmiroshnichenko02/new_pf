@@ -61,7 +61,9 @@ const SkillsSlider = () => {
                             <br />
                             -CSS variables
                             <br />
-                            -Використання препроцессорів: SASS/SCSS.
+                            -Використання препроцессорів: SASS/SCSS.<br/>
+                            -Flexbox<br/>
+                            -Grid
                         </p>
                     </div>
                 </div>
